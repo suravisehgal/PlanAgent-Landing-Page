@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlanAgent — Plan Smarter. Grow Faster. Achieve More.</title>
+  <meta property="og:title" content="PlanAgent — Plan Smarter. Grow Faster. Achieve More." />
+  <meta property="og:description" content="PlanAgent is an AI-powered planning partner for students, professionals, freelancers, and growing businesses." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=PlanAgent" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Google Analytics: replace G-XXXXXXXXXX with your own measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <meta name="description" content="PlanAgent is an AI-powered planning partner for students, professionals, freelancers, and growing businesses." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="header" id="top">
+      <div class="container header-inner">
+        <a href="index.html" class="logo" aria-label="PlanAgent home">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span>PlanAgent</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="index.html#features">Features</a>
+          <a href="index.html#pricing">Pricing</a>
+          <a href="index.html#testimonials">Testimonials</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="docs.html">Docs</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button class="hamburger" id="menuToggle" aria-label="Open mobile menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <a href="index.html">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#testimonials">Testimonials</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="docs.html">Docs</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Hero section">
+        <div class="hero-background" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <span class="eyebrow">AI Planning for ambitious teams</span>
+            <h1>Plan Smarter.<br />Grow Faster.<br />Achieve More.</h1>
+            <p>Turn your goals into actionable plans with AI-powered planning, productivity systems, smart insights, and personalized growth strategies.</p>
+            <div class="hero-actions">
+              <a href="#waitlist" class="btn btn-primary btn-lg">Get Started</a>
+              <a href="#features" class="btn btn-primary btn-lg">Watch Demo</a>
+            </div>
+            <div class="trust-row" aria-label="Hero trust indicators">
+              <div><strong>50,000+</strong> users onboarded</div>
+              <div><strong>96%</strong> success rate</div>
+              <div><strong>99.9%</strong> uptime</div>
+            </div>
+          </div>
+
+          <section class="hero-preview" data-reveal>
+            <div class="preview-shell">
+              <div class="preview-top">
+                <a href="#waitlist" class="btn btn-primary btn-lg btn-pill">Try Free for 7 Days</a>
+                <div class="preview-value">
+                  <strong>AI Plan Score</strong>
+                  <span>92/100</span>
+                </div>
+              </div>
+              <div class="dashboard-card">
+                <div class="dashboard-header">
+                  <div>
+                    <span>Team focus</span>
+                    <strong>Product roadmap</strong>
+                  </div>
+                  <span class="status-pill">Live</span>
+                </div>
+                <div class="chart-grid">
+                  <div class="chart-column"><strong>76%</strong><span>Q2 goals</span></div>
+                  <div class="chart-column"><strong>58%</strong><span>Tasks done</span></div>
+                  <div class="chart-column"><strong>84%</strong><span>On track</span></div>
+                </div>
+                <div class="timeline">
+                  <div><span>Research</span><span>Completed</span></div>
+                  <div><span>Launch</span><span>2 weeks</span></div>
+                </div>
+              </div>
+              <div class="preview-cards">
+                <a href="#pricing" class="promo-card btn btn-primary btn-lg btn-pill" data-reveal>
+                  <span class="mini-label">Student success</span>
+                  <strong class="mini-value">Up to 60% off</strong>
+                </a>
+                <article class="glass-card mini-card mini-highlight">
+                  <span class="mini-label">Weekly planning</span>
+                  <strong class="mini-value">+24% productivity</strong>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="section section-waitlist" id="waitlist" aria-label="Join the waitlist">
+        <div class="container section-heading" data-reveal>
+          <span class="eyebrow">Get early access</span>
+          <h2>Join the PlanAgent waitlist</h2>
+          <p>Be the first to try new productivity tools, exclusive student deals, and team planning insights.</p>
+        </div>
+        <div class="container waitlist-shell" data-reveal>
+          <form class="waitlist-form" id="waitlistForm">
+            <label for="waitlistName">Name</label>
+            <input id="waitlistName" name="name" type="text" placeholder="Your name" required />
+            <label for="waitlistEmail">Email</label>
+            <input id="waitlistEmail" name="email" type="email" placeholder="you@example.com" required />
+            <button class="btn btn-primary btn-lg" type="submit">Join the Waitlist</button>
+            <p class="waitlist-note">We respect your inbox. No spam, only product updates and launch invitations.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="feature-strip" id="studentOffer" data-reveal>
+        <div class="container feature-grid">
+          <article class="feature-panel panel-gradient">
+            <div class="panel-icon">🎓</div>
+            <h2>Student Success Program</h2>
+            <p>Save 40% instantly with a valid Student ID. Users aged 15–25 can unlock up to 60% OFF after verification.</p>
+            <ul>
+              <li>Special discounts</li>
+              <li>Productivity resources</li>
+              <li>Academic planning tools</li>
+            </ul>
+            <a href="#pricing" class="btn btn-primary">Claim Student Discount</a>
+          </article>
+          <article class="feature-panel panel-frosted">
+            <div class="panel-icon">🏆</div>
+            <h2>The More You Use PlanAgent, The More You Save</h2>
+            <p>Earn rewards and discounts through platform activity, loyalty milestones, referrals, and consistent usage.</p>
+            <div class="reward-list">
+              <div><strong>Milestones</strong><span>Earn tier rewards</span></div>
+              <div><strong>Referrals</strong><span>Bonus credits</span></div>
+              <div><strong>Activity</strong><span>Unlock premium tools</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-label="Features section">
+        <div class="container section-heading" data-reveal>
+          <span class="eyebrow">Core capabilities</span>
+          <h2>Designed for every plan, team, and goal.</h2>
+          <p>Powerful features built to help students, professionals, and businesses move from ideas to results faster.</p>
+        </div>
+        <div class="container features-grid">
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">🤖</div>
+            <h3>AI Planning</h3>
+            <p>Generate strategy outlines, milestones, and action plans tailored to your objectives.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">🎯</div>
+            <h3>Goal Tracking</h3>
+            <p>Monitor progress with clear targets, deadlines, and achievement signals.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">📈</div>
+            <h3>Productivity Insights</h3>
+            <p>Use data-powered recommendations to optimize time, tasks, and workflows.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">👥</div>
+            <h3>Team Collaboration</h3>
+            <p>Share plans, assign tasks, and keep everyone aligned with real-time updates.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">📅</div>
+            <h3>Smart Scheduling</h3>
+            <p>Balance deadlines, meetings, and study sessions with intelligent calendar sync.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">📊</div>
+            <h3>Progress Analytics</h3>
+            <p>Visualize performance metrics across teams, projects, and personal goals.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">🎓</div>
+            <h3>Student Planner</h3>
+            <p>Manage coursework, exams, projects, and study routines in one place.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">🚀</div>
+            <h3>Career Growth Tools</h3>
+            <p>Align tasks with career milestones, interview prep, and skill-building goals.</p>
+          </article>
+          <article class="feature-card" data-reveal>
+            <div class="feature-icon">🏢</div>
+            <h3>Business Planning</h3>
+            <p>Build launch roadmaps, revenue plans, and high-impact execution cycles.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section bg-soft" aria-label="Pricing options" id="pricing">
+        <div class="container section-heading" data-reveal>
+          <span class="eyebrow">Flexible subscription plans</span>
+          <h2>Pricing built for growth.</h2>
+          <p>Choose the plan that fits your routine—from student life to full-scale business operations.</p>
+        </div>
+        <div class="container pricing-grid">
+          <article class="pricing-card" data-reveal>
+            <div>
+              <div class="pricing-head">
+                <span>Starter</span>
+                <strong><span class="price-value">₹499</span><span>/month</span></strong>
+              </div>
+              <p>Ideal for students and freelancers starting with smart planning.</p>
+              <ul>
+                <li>AI roadmap generator</li>
+                <li>Task + goal tracking</li>
+                <li>Basic analytics</li>
+              </ul>
+            </div>
+            <div class="pricing-actions">
+              <a href="#cta" class="btn btn-primary">Choose Starter</a>
+            </div>
+          </article>
+          <article class="pricing-card featured" data-reveal>
+            <div>
+              <div class="pricing-head">
+                <span>Professional</span>
+                <strong><span class="price-value">₹999</span><span>/month</span></strong>
+              </div>
+              <p>Perfect for professionals who need priority planning workflows.</p>
+              <ul>
+                <li>Advanced insights</li>
+                <li>Collaboration tools</li>
+                <li>Weekly review dashboard</li>
+              </ul>
+            </div>
+            <div class="pricing-actions">
+              <a href="#cta" class="btn btn-primary">Choose Professional</a>
+            </div>
+          </article>
+          <article class="pricing-card" data-reveal>
+            <div>
+              <div class="pricing-head">
+                <span>Business</span>
+                <strong><span class="price-value">₹1999</span><span>/month</span></strong>
+              </div>
+              <p>Scale faster with analytics, team alignment, and enterprise planning.</p>
+              <ul>
+                <li>Custom workflows</li>
+                <li>Dedicated support</li>
+                <li>Team templates</li>
+              </ul>
+            </div>
+            <div class="pricing-actions">
+              <a href="#cta" class="btn btn-primary">Choose Business</a>
+            </div>
+          </article>
+          <article class="pricing-card" data-reveal>
+            <div>
+              <div class="pricing-head">
+                <span>Enterprise</span>
+                <strong><span class="price-value">Custom</span><span>/pricing</span></strong>
+              </div>
+              <p>Fully tailored solutions for companies that need a strategic planning platform.</p>
+              <ul>
+                <li>Dedicated success manager</li>
+                <li>API access placeholder</li>
+                <li>Custom onboarding</li>
+              </ul>
+            </div>
+            <div class="pricing-actions">
+              <a href="contact.html" class="btn btn-primary">Contact Sales</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Social proof" id="social">
+        <div class="container social-grid" data-reveal>
+          <article class="counter-card">
+            <strong class="counter" data-target="50000">0</strong>
+            <span>Users Helped</span>
+          </article>
+          <article class="counter-card">
+            <strong class="counter" data-target="1200000">0</strong>
+            <span>Plans Created</span>
+          </article>
+          <article class="counter-card">
+            <strong class="counter" data-target="8500000">0</strong>
+            <span>Tasks Completed</span>
+          </article>
+          <article class="counter-card">
+            <strong class="counter" data-target="96">0</strong>
+            <span>Success Rate (%)</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-tight" aria-label="Testimonials" id="testimonials">
+        <div class="container section-heading" data-reveal>
+          <span class="eyebrow">Success stories</span>
+          <h2>Trusted by planners across education and business.</h2>
+          <p>Real teams and students sharing the impact of better planning, smarter habits, and AI-assisted growth.</p>
+        </div>
+        <div class="container testimonial-shell" data-reveal>
+          <div class="testimonial-slider" id="testimonialSlider" aria-label="Testimonials carousel">
+            <article class="testimonial-card active">
+              <p>“PlanAgent helped me move from scattered notes to a structured weekly workflow. My productivity improved overnight.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">AL</span>
+                <div>
+                  <strong>Aisha Lal</strong>
+                  <span class="testimonial-role">Product Designer, Nimbus Labs</span>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“The student discount made premium planning tools feel accessible. My exam prep became much easier.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">RV</span>
+                <div>
+                  <strong>Rohan Verma</strong>
+                  <span class="testimonial-role">Final Year Student, Delhi University</span>
+                  <div class="testimonial-stars">★★★★☆</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“We consolidated our freelance workload, client deliverables, and revenue goals in one place. The dashboard keeps us aligned.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">SP</span>
+                <div>
+                  <strong>Sana Patel</strong>
+                  <span class="testimonial-role">Freelance Strategist, Growth Hive</span>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“The loyalty rewards made me come back every week. More usage unlocked discounts, and my team loved the analytics.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">MK</span>
+                <div>
+                  <strong>Manish Kapoor</strong>
+                  <span class="testimonial-role">Operations Lead, AzureWorks</span>
+                  <div class="testimonial-stars">★★★★☆</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“PlanAgent transformed our quarterly planning process. It feels premium, fast, and the AI suggestions are genuinely useful.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">AS</span>
+                <div>
+                  <strong>Ananya Singh</strong>
+                  <span class="testimonial-role">Startup Founder, Bloom Labs</span>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“I now know exactly what to focus on every day. The smart scheduling feature keeps deadlines calm and manageable.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">PP</span>
+                <div>
+                  <strong>Priya Prakash</strong>
+                  <span class="testimonial-role">Marketing Manager, Vista Digital</span>
+                  <div class="testimonial-stars">★★★★☆</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“From college assignments to business launches, the personalized growth strategies are a game changer.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">VT</span>
+                <div>
+                  <strong>Vikram Thakur</strong>
+                  <span class="testimonial-role">Entrepreneur, Rise Collective</span>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“The interface is clean, the support is responsive, and the planning tools keep my team synchronized.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">ND</span>
+                <div>
+                  <strong>Nisha Desai</strong>
+                  <span class="testimonial-role">HR Consultant, BrightPath</span>
+                  <div class="testimonial-stars">★★★★☆</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“The analytics help me see productivity improvements weekly. It feels like a premium business platform.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">KG</span>
+                <div>
+                  <strong>Karan Goel</strong>
+                  <span class="testimonial-role">Growth Analyst, Beacon Ventures</span>
+                  <div class="testimonial-stars">★★★★★</div>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card">
+              <p>“The onboarding is smooth, the AI planning suggestions are smart, and the system is visually delightful.”</p>
+              <div class="testimonial-meta">
+                <span class="avatar">SR</span>
+                <div>
+                  <strong>Sara Rizvi</strong>
+                  <span class="testimonial-role">Business Coach, Thrive Studio</span>
+                  <div class="testimonial-stars">★★★★☆</div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="testimonial-controls">
+            <button id="prevTestimonial" class="icon-button" aria-label="Previous testimonial">‹</button>
+            <button id="nextTestimonial" class="icon-button" aria-label="Next testimonial">›</button>
+          </div>
+          <div class="read-more-wrap">
+            <button id="openTestimonials" class="btn btn-accent">Read More Success Stories</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="modal" id="testimonialModal" role="dialog" aria-modal="true" aria-labelledby="testimonialModalTitle" hidden>
+        <div class="modal-panel">
+          <button class="modal-close" id="closeTestimonials" aria-label="Close testimonials modal">×</button>
+          <div class="modal-header">
+            <span class="eyebrow">Full story collection</span>
+            <h2 id="testimonialModalTitle">More success stories from PlanAgent users</h2>
+            <p>Discover additional experiences from students, freelancers, teams, and enterprises who levelled up with smarter planning.</p>
+          </div>
+          <div class="modal-grid">
+            <article class="testimonial-card modal-card">
+              <p>“PlanAgent gave us a clear roadmap for our product launch. The insights dashboard made every sprint easier.”</p>
+              <div class="testimonial-meta"><span class="avatar">AM</span><div><strong>Amit Mishra</strong><span>Product Lead</span></div></div>
+            </article>
+            <article class="testimonial-card modal-card">
+              <p>“The student perks helped me stay motivated through exam season. Every resource feels premium and easy to use.”</p>
+              <div class="testimonial-meta"><span class="avatar">KS</span><div><strong>Kavya Sharma</strong><span>Science Student</span></div></div>
+            </article>
+            <article class="testimonial-card modal-card">
+              <p>“Reward badges keep me coming back. I love seeing consistent progress through every milestone.”</p>
+              <div class="testimonial-meta"><span class="avatar">DP</span><div><strong>Dev Patel</strong><span>Operations Analyst</span></div></div>
+            </article>
+            <article class="testimonial-card modal-card">
+              <p>“The navigation is elegant, the planning templates are thoughtful, and team collaboration finally feels effortless.”</p>
+              <div class="testimonial-meta"><span class="avatar">HN</span><div><strong>Hina Nair</strong><span>Strategy Consultant</span></div></div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" aria-label="Frequently asked questions" id="faq">
+        <div class="container section-heading" data-reveal>
+          <span class="eyebrow">FAQs</span>
+          <h2>Everything you need to know before you start.</h2>
+          <p>Clear answers about pricing, verification, trial terms, rewards, privacy, and more.</p>
+        </div>
+        <div class="container faq-grid" data-reveal>
+          <div class="faq-item">
+            <button aria-expanded="false" class="faq-toggle">How does the trial work?</button>
+            <div class="faq-panel">Start with a full access period, then choose a plan that suits your goals and workflow.</div>
+          </div>
+          <div class="faq-item">
+            <button aria-expanded="false" class="faq-toggle">What is included in the student discount?</button>
+            <div class="faq-panel">Verified students receive 40% off instantly and can unlock up to 60% off after validation through our student success program.</div>
+          </div>
+          <div class="faq-item">
+            <button aria-expanded="false" class="faq-toggle">How does the rewards program build savings?</button>
+            <div class="faq-panel">Earn loyalty points for activity, referrals, milestones, and consistent usage. Points convert into credits, discounts, and premium access.</div>
+          </div>
+          <div class="faq-item faq-hidden">
+            <button aria-expanded="false" class="faq-toggle">Is my planning data secure?</button>
+            <div class="faq-panel">Yes. PlanAgent uses 256-bit encryption, secure student verification, and privacy-first architecture to protect your information.</div>
+          </div>
+          <div class="faq-item faq-hidden">
+            <button aria-expanded="false" class="faq-toggle">What is the refund policy?</button>
+            <div class="faq-panel">If you cancel within 14 days of your first paid subscription, we offer a refund under our terms. Contact support for assistance.</div>
+          </div>
+          <div class="faq-item faq-hidden">
+            <button aria-expanded="false" class="faq-toggle">How do I manage my account?</button>
+            <div class="faq-panel">Use the account dashboard to review subscriptions, update billing, access rewards, and manage verification documents.</div>
+          </div>
+        </div>
+        <div class="faq-footer">
+          <button id="faqReadMore" class="btn btn-secondary btn-lg">Read More</button>
+        </div>
+      </section>
+
+      <section class="section bg-soft" aria-label="Trust and security">
+        <div class="container trust-strip" data-reveal>
+          <div><strong>256-bit Encryption</strong><span>Secure planning data storage.</span></div>
+          <div><strong>Student Verification Protected</strong><span>Safe, compliant validation.</span></div>
+          <div><strong>Privacy First</strong><span>Minimal personal data use.</span></div>
+          <div><strong>Secure Payments</strong><span>PCI-ready checkout flow.</span></div>
+          <div><strong>99.9% Uptime</strong><span>Reliable availability.</span></div>
+          <div><strong>Trusted Worldwide</strong><span>Global planner community.</span></div>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="cta" aria-label="Conversion call to action">
+        <div class="container cta-grid" data-reveal>
+          <div>
+            <span class="eyebrow">Ready to build a better future?</span>
+            <h2>Ready to Build a Better Future with PlanAgent?</h2>
+            <p>Join thousands of students, professionals, freelancers, and businesses already planning smarter every day.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="#pricing" class="btn btn-primary btn-lg">Start 7-Day Free Trial</a>
+            <a href="#features" class="btn btn-secondary btn-lg">Explore Features</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer footer-global" aria-label="Footer">
+      <div class="container footer-bar">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="PlanAgent home">
+            <span class="logo-mark" aria-hidden="true"></span>
+            PlanAgent
+          </a>
+          <p>Modern planning for students, professionals, and teams.</p>
+        </div>
+        <div class="footer-contact">
+          <strong>Contact</strong>
+          <p>Phone: +91 98765 43210</p>
+          <p>Email: support@planagent.ai</p>
+          <p>Support Mon–Fri 9am–6pm IST</p>
+        </div>
+        <div class="footer-quicklinks">
+          <strong>Quick Links</strong>
+          <a href="#pricing">Pricing</a>
+          <a href="#features">Features</a>
+          <a href="#testimonials">Success Stories</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 PlanAgent. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X / Twitter">X</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

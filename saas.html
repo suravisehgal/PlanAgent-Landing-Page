@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseHQ — The all-in-one SaaS platform for modern teams. Scale effortlessly with transparent pricing.">
+  <title>PulseHQ — SaaS Platform for Modern Teams</title>
+  <meta property="og:title" content="PulseHQ — SaaS Platform for Modern Teams" />
+  <meta property="og:description" content="PulseHQ — The all-in-one SaaS platform for modern teams. Scale effortlessly with transparent pricing." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=PlanAgent" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Google Analytics: replace G-XXXXXXXXXX with your own measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <link rel="stylesheet" href="./css/saas.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo"><span class="logo-dot"></span>PulseHQ</a>
+
+      <nav>
+        <ul class="nav">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="#" class="btn btn-ghost">Log in</a>
+        <a href="#pricing" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#pricing" class="btn btn-primary">Get Started</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-grid">
+      <div class="animate-in">
+        <span class="hero-badge">Now in public beta</span>
+        <h1>Run your team on <span>one platform</span></h1>
+        <p>PulseHQ brings projects, analytics, and automation together — so your team ships faster without juggling a dozen tools.</p>
+        <div class="hero-buttons">
+          <a href="#pricing" class="btn btn-primary btn-lg">Start Free Trial</a>
+          <a href="#features" class="btn btn-outline btn-lg">See Features</a>
+        </div>
+      </div>
+
+      <div class="hero-visual animate-in delay-2">
+        <div class="hero-visual-bar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="metric-row">
+          <div class="metric"><strong>98%</strong><span>Uptime</span></div>
+          <div class="metric"><strong>4.2K</strong><span>Teams</span></div>
+          <div class="metric"><strong>12ms</strong><span>Latency</span></div>
+        </div>
+        <div class="chart-bars">
+          <div style="height:40%; animation-delay:0.1s"></div>
+          <div style="height:65%; animation-delay:0.2s"></div>
+          <div style="height:50%; animation-delay:0.3s"></div>
+          <div style="height:80%; animation-delay:0.4s"></div>
+          <div style="height:60%; animation-delay:0.5s"></div>
+          <div style="height:95%; animation-delay:0.6s"></div>
+          <div style="height:75%; animation-delay:0.7s"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Features</span>
+        <h2>Everything your team needs</h2>
+        <p>Powerful tools that scale from startup to enterprise — no bloat, no complexity.</p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Real-time Collaboration</h3>
+          <p>Work together live with shared docs, comments, and instant sync across every device.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Advanced Analytics</h3>
+          <p>Custom dashboards and reports that turn raw data into decisions your team can act on.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🔗</div>
+          <h3>200+ Integrations</h3>
+          <p>Connect Slack, GitHub, Jira, and more with one-click setup — no engineering required.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Enterprise Security</h3>
+          <p>SOC 2 compliant with SSO, role-based access, and end-to-end encryption built in.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>Workflow Automation</h3>
+          <p>Build no-code automations that eliminate repetitive tasks and keep projects moving.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">☁️</div>
+          <h3>Global CDN</h3>
+          <p>Lightning-fast performance worldwide with 99.98% uptime guaranteed in our SLA.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Calculator -->
+  <section class="section pricing-section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Pricing</span>
+        <h2>Build your perfect plan</h2>
+        <p>Drag the sliders to see exactly what you'll pay. No surprises, no hidden fees.</p>
+      </div>
+
+      <div class="calculator">
+        <!-- Sliders -->
+        <div class="sliders-panel">
+          <div class="billing-toggle">
+            <span id="labelMonthly" class="active">Monthly</span>
+            <div class="toggle-switch" id="billingToggle" role="switch" aria-checked="false" tabindex="0">
+              <div class="toggle-knob"></div>
+            </div>
+            <span id="labelAnnual">Annual</span>
+            <span class="save-badge">Save 20%</span>
+          </div>
+
+          <div class="slider-group">
+            <label>Team members <span id="usersValue">5</span></label>
+            <input type="range" id="users" min="1" max="100" value="5">
+            <p class="slider-hint">$12 per user / month (first 3 included in base)</p>
+          </div>
+
+          <div class="slider-group">
+            <label>Storage <span id="storageValue">50 GB</span></label>
+            <input type="range" id="storage" min="10" max="500" step="10" value="50">
+            <p class="slider-hint">$0.50 per GB / month above 20 GB free</p>
+          </div>
+
+          <div class="slider-group">
+            <label>API calls <span id="apiValue">10K</span></label>
+            <input type="range" id="api" min="0" max="5" step="1" value="1">
+            <p class="slider-hint">0 = 5K free · 1 = 10K · 2 = 50K · 3 = 100K · 4 = 500K · 5 = 1M+</p>
+          </div>
+
+          <div class="slider-group">
+            <label>Projects <span id="projectsValue">3</span></label>
+            <input type="range" id="projects" min="1" max="50" value="3">
+            <p class="slider-hint">$5 per project / month above 2 free</p>
+          </div>
+        </div>
+
+        <!-- Price summary -->
+        <div class="price-card">
+          <h3>Your estimated cost</h3>
+          <div class="price-total">
+            <strong id="totalPrice">$89</strong>
+            <span>/ month</span>
+          </div>
+          <p class="price-annual-note" id="annualNote"></p>
+
+          <ul class="breakdown" id="breakdown">
+            <li><span>Base plan</span><span id="lineBase">$29</span></li>
+            <li><span>Extra users (<span id="lineUsers">2</span>)</span><span id="lineUsersCost">$24</span></li>
+            <li><span>Storage (<span id="lineStorage">50</span> GB)</span><span id="lineStorageCost">$15</span></li>
+            <li><span>API tier</span><span id="lineApiCost">$10</span></li>
+            <li><span>Extra projects (<span id="lineProjects">1</span>)</span><span id="lineProjectsCost">$5</span></li>
+          </ul>
+
+          <a href="#" class="btn btn-primary btn-lg" style="width:100%">Start 14-Day Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Testimonials</span>
+        <h2>Loved by teams everywhere</h2>
+        <p>See why thousands of companies switched to PulseHQ and never looked back.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <blockquote>"We replaced four tools with PulseHQ. Our onboarding time dropped by 60% and the pricing calculator made budgeting dead simple."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">SK</div>
+            <div class="author-info">
+              <strong>Sarah Kim</strong>
+              <span>CTO, Launchpad Inc.</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <blockquote>"The automation features alone paid for the subscription in the first week. Scaling from 5 to 40 users was seamless."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">MR</div>
+            <div class="author-info">
+              <strong>Marcus Reed</strong>
+              <span>Founder, Stackflow</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Best SaaS investment we've made. Clean UI, transparent pricing, and support that actually responds within an hour."</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">EL</div>
+            <div class="author-info">
+              <strong>Elena Lopez</strong>
+              <span>Ops Lead, Brightwave</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Ready to simplify your stack?</h2>
+        <p>Join 4,200+ teams on PulseHQ. Free 14-day trial, cancel anytime.</p>
+        <a href="#pricing" class="btn btn-primary btn-lg">Calculate Your Price</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Docs</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>&copy; 2026 PulseHQ. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Pricing config ──
+    const PRICING = {
+      base: 29,
+      userRate: 12,
+      freeUsers: 3,
+      storageRate: 0.5,
+      freeStorage: 20,
+      projectRate: 5,
+      freeProjects: 2,
+      apiTiers: [0, 10, 25, 50, 100, 200],       // cost per tier index
+      apiLabels: ['5K', '10K', '50K', '100K', '500K', '1M+'],
+      annualDiscount: 0.2
+    };
+
+    // ── DOM refs ──
+    const usersSlider    = document.getElementById('users');
+    const storageSlider  = document.getElementById('storage');
+    const apiSlider      = document.getElementById('api');
+    const projectsSlider = document.getElementById('projects');
+    const billingToggle  = document.getElementById('billingToggle');
+    const hamburger      = document.getElementById('hamburger');
+    const mobileMenu     = document.getElementById('mobileMenu');
+    const header         = document.getElementById('header');
+
+    let isAnnual = false;
+
+    // ── Calculate and display price ──
+    function updatePrice() {
+      const users    = +usersSlider.value;
+      const storage  = +storageSlider.value;
+      const apiTier  = +apiSlider.value;
+      const projects = +projectsSlider.value;
+
+      const extraUsers    = Math.max(0, users - PRICING.freeUsers);
+      const extraStorage  = Math.max(0, storage - PRICING.freeStorage);
+      const extraProjects = Math.max(0, projects - PRICING.freeProjects);
+
+      const userCost    = extraUsers * PRICING.userRate;
+      const storageCost = Math.round(extraStorage * PRICING.storageRate);
+      const apiCost     = PRICING.apiTiers[apiTier];
+      const projectCost = extraProjects * PRICING.projectRate;
+
+      let monthly = PRICING.base + userCost + storageCost + apiCost + projectCost;
+
+      if (isAnnual) {
+        monthly = Math.round(monthly * (1 - PRICING.annualDiscount));
+      }
+
+      // Update slider labels
+      document.getElementById('usersValue').textContent    = users;
+      document.getElementById('storageValue').textContent  = storage + ' GB';
+      document.getElementById('apiValue').textContent      = PRICING.apiLabels[apiTier];
+      document.getElementById('projectsValue').textContent = projects;
+
+      // Update breakdown
+      document.getElementById('lineBase').textContent         = '$' + PRICING.base;
+      document.getElementById('lineUsers').textContent        = extraUsers;
+      document.getElementById('lineUsersCost').textContent    = '$' + userCost;
+      document.getElementById('lineStorage').textContent      = storage;
+      document.getElementById('lineStorageCost').textContent  = '$' + storageCost;
+      document.getElementById('lineApiCost').textContent      = apiCost === 0 ? 'Free' : '$' + apiCost;
+      document.getElementById('lineProjects').textContent     = extraProjects;
+      document.getElementById('lineProjectsCost').textContent = '$' + projectCost;
+
+      // Update total with a small bump animation
+      const totalEl = document.getElementById('totalPrice');
+      totalEl.textContent = '$' + monthly;
+      totalEl.classList.remove('bump');
+      void totalEl.offsetWidth; // reflow to restart animation
+      totalEl.classList.add('bump');
+
+      // Annual note
+      const note = document.getElementById('annualNote');
+      note.textContent = isAnnual
+        ? 'Billed $' + (monthly * 12) + '/year (20% savings applied)'
+        : 'Switch to annual billing to save 20%';
+    }
+
+    // ── Billing toggle ──
+    function toggleBilling() {
+      isAnnual = !isAnnual;
+      billingToggle.classList.toggle('on', isAnnual);
+      billingToggle.setAttribute('aria-checked', isAnnual);
+      document.getElementById('labelMonthly').classList.toggle('active', !isAnnual);
+      document.getElementById('labelAnnual').classList.toggle('active', isAnnual);
+      updatePrice();
+    }
+
+    billingToggle.addEventListener('click', toggleBilling);
+    billingToggle.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleBilling(); }
+    });
+
+    // ── Slider listeners ──
+    [usersSlider, storageSlider, apiSlider, projectsSlider].forEach(slider => {
+      slider.addEventListener('input', updatePrice);
+    });
+
+    // ── Hamburger menu ──
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // ── Header scroll effect ──
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Initial render
+    updatePrice();
+  </script>
+</body>
+</html>
